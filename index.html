@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="assets/js/jquery-1.12.3.min.js"></script>
+	<script src="assets/js/custom.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" >
+    <title>Projecto Final</title>
+    <meta name="author" content="Beatriz Dias">
+</head>
+    <body>
+    <div class="row">
+        <header class="col_12 colt_8 colm_5">
+            <div class="barra"></div>
+        <div class="is">
+            <img src="assets/imagens/logoISMT.png" class="logo" alt="logo do ISMT">
+            </div>
+        <div class="fon">CARLOS FONSECA</div> 
+        <div class="prov">Dia 5, o provedor do estudante conta contigo!</div>
+        <div class="logom">
+            <a href="https://www.facebook.com/ismtmultimedia/?fref=ts">
+                <img src="assets/imagens/logoM.png" class="mm" alt="logo de Multimédia"></a>
+        </div>    
+        </header>
+        <main class="col_12 colt_8 colm_5"> 
+            <div class="menu" id="menuf">
+                <ul>
+                    <li> <a href="#janela1" rel="modal">O PROVEDOR</a></li>
+                    <li><a href="#candidato" class="scroll">O CANDIDATO</a></li>
+                    <li><a href="#candidatura" class="scroll">CANDIDATURA</a></li>
+                    <li><a href="#galeria" class="scroll">GALERIA</a></li>
+                    <li><a href="#contact" class="scroll">CONTACTO</a></li>
+                </ul>
+            </div>
+ 
+<div class="window" id="janela1">
+    <a href="#" class="fechar">X Fechar</a>
+    <h4>O que é um provedor do estudante?</h4>
+    <p>O Provedor do Estudante tem como principal função zelar pela promoção dos direitos e interesses legítimos dos estudantes. Compete-lhe apreciar as queixas e reclamações que lhe sejam apresentadas, procurando soluções, através da mediação e negociação das partes e de adequadas recomendações aos órgãos e serviços competentes.</p>
+</div> 
+<div id="mascara"></div>
+            
+            <div id="litos">
+                <img src="assets/imagens/fon.jpg" alt="Foto Carlos Fonseca" class="daniel">
+            
+            </div>
+        <div> <a id="candidato"></a>
+                <div class="ttl2">O CANDIDATO</div>
+                <div class="line2"></div>
+                <div class="text2"> Carlos Daniel Rodrigues Fonseca é natural de Miranda do Corvo, Coimbra e tem 22 anos. <br> Completou o ensino secundário em 2012 na Escola Secundária Avelar Brotero. Prosseguiu os estudos no Instituto Superior de Engenharia de Coimbra e frequentou a licenciatura de Engenharia Informática até 2014. Não estando contente com o curso, decidiu mudar para Multimédia no Instituto Superior Miguel Torga. Actualmente encontra-se no 1º ano da licenciatura. <br> Tem como hobbies jogar futebol, passear os seus cães e fazer muito exercício físico. </div>
+            </div>
+        <div> <a id="candidatura"></a>
+                <div class="ttl3">CANDIDATURA</div>
+                <div class="line3"></div>
+                <div class="text3"> O candidato tem para a sua candidatura os seguintes objectivos: <br> Mediar entre as partes em conflito e indicar pistas para a resolução dos problemas; <br>
+Apreciar as queixas e reclamações dirigidas pelos estudantes e emitir recomendações aos destinatários respectivos com vista à revogação, reforma ou conversão dos actos lesivos dos direitos dos estudantes e à melhoria dos serviços; <br>
+Ajudar a clarificar políticas e procedimentos praticados no Instituto, nomeadamente no domínio da actividade pedagógica e da acção social escolar e, neste contexto, recomendar as necessárias alterações;<br>
+Elaborar um relatório anual com uma síntese da sua actividade, salvaguardando a completa confidencialidade das queixas apresentadas, a divulgar após aprovação do Conselho Geral.
+
+</div>
+            <div id="text4"> "Quero dar um melhor futuro aos estudantes de Multimédia." <br> <em> Carlos Fonseca, Maio 2016</em></div>
+            </div>
+<div > <a id="galeria"></a> 
+
+	<p>
+		<img id="imagem" class="imagem" src="assets/imagens/IMG_0034.JPG" alt="Carlos Fonseca">
+	</p>
+	<p class="thumbs">
+		<a href="assets/imagens/fon.jpg" title="Descrição da imagem 1"><img src="assets/imagens/IMG_0034.JPG" alt="Carlos Fonseca"></a>
+		<a href="assets/imagens/11009919_955915991119328_5576459045500474493_n.jpg" title="Descrição da imagem 2"><img src="assets/imagens/11009919_955915991119328_5576459045500474493_n.jpg" alt="Carlos Fonseca"></a>
+		<a href="assets/imagens/litos.jpg" title="Descrição da imagem 3"><img src="assets/imagens/litos.jpg" alt="Carlos Fonseca"></a>
+		<a href="assets/imagens/IMG_78341.jpg" title="Descrição da imagem 4"><img src="assets/imagens/IMG_78341.jpg" alt="Carlos Fonseca"></a>
+	</p>
+
+</div>    
+        </main>
+
+        <footer class="col_12 colt_8 colm_5"> 
+            <div id="mess"> <div id="txt"> Deixe a sua <br> mensagem ao <br>CANDIDATO!</div></div>
+            
+            <form name="formulario" onsubmit="return validateForm()" method="post" class="formulario">NOME: <input type="text" name="firstname"  size="15" maxlength="10" placeholder="Afonso"  autocomplete="on" class="formt">
+<br><br>APELIDO: <input type="text" name="lastname"  size="15" maxlength="10" placeholder="Leal"  autocomplete="on" class="formt"><br><br>E-mail: <input type="email" name="email" placeholder="lealafonso@example.com" size="20" maxlength="30"  autocomplete="on" class="formt"><br><br>Assunto: <br><textarea name="assunto" id="info" placeholder="Escreva aqui..." rows="10" cols="30" class="assuntoform"></textarea><br><br>
+            <input type="submit" value="Enviar" class="botaoenvio">
+            </form>
+            <div> <a id="contact"></a>
+            <div id="footer2"> 
+                <div id="ft1">
+                    <div id="redes"> Acompanhe o candidato no seu dia-a-dia!</div>
+                
+                
+                </div>
+            <ul class="ulfooter">
+
+                            <li class="lifooter"><a class="afooter" href="https://www.facebook.com/arlosaniel?fref=ts" target="_blank"><img class="fotofooter" src="assets/imagens/Facebook_icon.png" alt="Logo Facebook"></a></li>
+                        <li class="lifooter"><a class="afooter" href="https://www.instagram.com" target="_blank"><img class="fotofooter" src="assets/imagens/instagram-4-xxl.png" alt="Logo instagram"></a></li>
+                        <li class="lifooter"><a class="afooter" href="https://pt.pinterest.com" target="_blank"><img class="fotofooter" src="assets/imagens/pinterest-icon_logogrey.png" alt="Logo pinterest"></a></li>
+                        <li class="lifooter"><a class="afooter" href="" target="_blank"><img class="fotofooter" src="assets/imagens/g-letter-gmail-google-search-round-function-mobile-512.png" alt="Logo gmail"></a></li>
+                    </ul>
+            </div>
+            </div>
+            
+        </footer>
+</div>
+</html>
+
+        
