@@ -298,7 +298,6 @@ html,body{
 	height: 60%;
 	padding: 5px;
     margin-left: 25%;
-    margin-top: 1%;
 }
 
 .thumbs img {
@@ -378,12 +377,6 @@ html,body{
         color: black;
     }
     
-    .duvidas {
-        box-sizing: border-box;
-        text-align: center;
-        width: 100%;
-        padding-bottom: 5%;
-    }
     
     .textoum {
         font-family:DINRegular;
@@ -471,11 +464,20 @@ html,body{
 	[class*="colt_"]:first-child {margin-left: 0;}
 [class*="colt_"] {float:left; margin-right: 20px; min-height: 100px;}
     
+     header{
+        width: 100%;
+        height: 700px;
+    background-image: url(../imagens/carlos.jpg);
+    background-repeat: no-repeat;
+    background-position:  top;
+    background-size: cover; 
+}
+    
     .is{
-        width: 12%;
-        height: 5%;
+        width: 15%;
+        height: 8%;
         position: relative;
-        top: 7%;
+        top: 5%;
        left: 5%;
     }
     
@@ -484,27 +486,44 @@ html,body{
         height: 100%;  
     }
     
-    .prov{
+    .fon{
         position: relative;
+        box-sizing: border-box;
         left: 8%;
-        width:35%;
-        top: 25%;
-        height: 8%;
-        font-family: DINRegular;
-        font-size: 20px;
-        color: #E65A1D; 
-        background-color: white;
-        text-align: center;   
+        width: 45%;
+        top:10%;
+        height: 35%;
+        text-align: center;
+        padding: 0.5em;
+        padding-top: 0.7em;
+        font-family: agoestoesan;
+        font-size: 55px;
+        color: #006D6A; 
+        background-color: rgba(256, 256, 256, 0.4);
     }
     
+    .prov{
+        box-sizing: border-box;
+        position: relative;
+        left: 8%;
+        width: 45%;
+        top: 10%;
+        height: 12.5%;
+        font-family: DINRegular;
+        font-size: 1.5em;
+        padding: 0.5em;
+        padding-left: 1em;
+        color: #E65A1D; 
+        text-align: center;
+        background-color: rgba(256, 256, 256, 0.5);  
+    }
     
     .logom{
-        width: 10%;
-        height: 10%;
+        width: 7%;
+        height: 8%;
         position: relative;
-        top: 35%;
-        left: 85%;
-        
+        top: 32%;
+        left: 90%; 
     }
     
     .mm{
@@ -521,31 +540,81 @@ html,body{
         text-align: center;
         background-color: dimgrey;
     }
+      #litos{
+        width: 30%;
+        height: 300px;
+        float: left;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+    
+    .daniel{
+        width: 100%;
+        height: 100%;
+    }
     
     .ttl2{
         font-family: DINRegular;
         font-size: 20px;
         color: #E65A1D; 
         text-align: center;
-        margin-top: 18%;
+        margin-top: 3%;
         font-weight: bold;
     }
     
     .line2{
         width: 10%;
-        height: 7px;
+        height: 4px;
         background-color: #E65A1D;
         position: relative;
-        left:45%;
+        left:65%;
     }
     .text2{
         font-family: DINRegular;
+        font-size: 18px;
+        text-align: justify;
+        width: 40%;
+        margin-left: 50%;
+        margin-top: 1%;
+        color: black;
+    }
+    
+    .ttl3{
+        font-family: DINRegular;
         font-size: 20px;
+        color: #E65A1D; 
         text-align: center;
+        margin-top: 5%;
+        font-weight: bold;
+    }
+    
+    .line3{
+        width: 13%;
+        height: 4px;
+        background-color: #E65A1D;
+        position: relative;
+        left:44%;
+    }
+    .text3{
+        font-family: DINRegular;
+        font-size: 20px;
+        text-align: justify;
         width: 80%;
         margin-left: 10%;
-        margin-top: 5%;
+        margin-top: 3%;
         color: black;
+        float: left;
+    }
+    
+     #text4{
+        width: 80%;
+        height: 150px;
+        text-align: center;
+        font-size: 30px;
+        font-family: DINRegular;
+        margin-left: 10%;
+        margin-top: 50%;
+        font-weight: bold; 
     }
     
     #galeria{
@@ -553,19 +622,80 @@ html,body{
         height: 300px;
     }
     
+    .imagem {
+	border: solid 1px #ccc;
+	width: 50%;
+	height: 60%;
+	padding: 5px;
+    margin-left: 25%;
+    margin-top:1%;
+}
+
+.thumbs img {
+	border: solid 1px #ccc;
+	width: 100px;
+	height: 100px;
+	padding: 4px;
+    position: relative;
+    left: 22%;  
+}
     /*FOOTER*/
     
-    .ulfooter {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    position: relative;
-    margin-top: 25%;
-    height: 50%;
-    background-color: #E65A1D;
-}
+    #mess{
+        width: 35%;
+        height: 200px;
+        border-radius: 100%;
+        border: 5px solid #006D6A;
+        position: relative;
+        left: 5%; 
+        float: left;
+        margin-top: 17%;
+        
+    }
     
+    #txt{
+        text-align: center;
+        font-family: DINRegular;
+        font-size: 30px;
+        margin-top: 20%;
+        color: #006D6A;
+    }
+    
+    #footer2{
+        box-sizing: border-box;
+        width: 100%;
+        height: 100px;
+        background-color: #E65A1D;
+        margin-top:2%;
+    }
+    
+    #ft1{
+        width: 100%;
+        height: 50px;
+        background-color: #E65A1D; 
+    }
+    
+    #redes{
+        font-family: DINRegular;
+        font-size: 20px;
+        text-align: center;
+        padding: 1%;
+        
+    }
+        .ulfooter {
+        list-style-type: none;
+        text-align: center;
+        margin: 0;
+    }
+
+
+        .fotofooter {
+            box-sizing: border-box;
+            height:25px;
+            margin: 0;
+        }
+    
+   
 }
     
     /*mobile*/
@@ -772,7 +902,7 @@ html,body{
     
     #text4{
         width: 80%;
-        height: 250px;
+        height: 200px;
         text-align: center;
         font-size: 25px;
         font-family: DINRegular;
@@ -787,7 +917,7 @@ html,body{
 	height: 60%;
 	padding: 1px;
     margin-left: 25%;
-    margin-top: 40%;
+    margin-top: 10%;
 }
 
 .thumbs img {
@@ -823,23 +953,7 @@ html,body{
     }
     
    
-    .ulfooter {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    position: relative;
-    height: 50%;
-    margin-top: 8%;
-    background-color: #E65A1D;
-}
-
-.lifooter {
-    display: inline;
-    padding: 5px;
-}
-    
-     #footer2{
+    #footer2{
         box-sizing: border-box;
         width: 100%;
         height: 100px;
@@ -872,4 +986,5 @@ html,body{
             height:25px;
             margin: 0;
         }
+    
     }
