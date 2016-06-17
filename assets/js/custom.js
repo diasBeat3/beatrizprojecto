@@ -9,7 +9,7 @@ jQuery(document).ready(function($) {
 $(function(){   
 			var nav = $('#menuf');   
 			$(window).scroll(function () { 
-				if ($(this).scrollTop() > 900) { 
+				if ($(this).scrollTop() > 700) { 
 					nav.addClass("menu-fixo"); 
 				} else { 
 					nav.removeClass("menu-fixo"); 
